@@ -87,7 +87,7 @@ main();
 ```
 const main = async () => {
   const result = await rchainWeb
-    .exploreDeploy(
+    .exploreDeploys(
       [
         `new x in { x!("hello") }`,
         `new x in { x!("world") }`,
@@ -142,7 +142,7 @@ main();
 **Utils**
 
 - RChainWeb.utils.rhoValToJs
-- RChainWeb.utils.hoExprToVar
+- RChainWeb.utils.rhoExprToVar
 - RChainWeb.utils.decodePar
 - RChainWeb.utils.getDeployDataToSign
 - RChainWeb.utils.decodeBase16
