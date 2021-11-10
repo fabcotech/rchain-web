@@ -11,7 +11,7 @@ const decodeBase16 = (hexStr) => {
   return Uint8Array.from(resArr);
 };
 
-export const encodeBase16 = (bytes) =>
+const encodeBase16 = (bytes) =>
   Array.from(bytes)
     .map((x) => (x & 0xff).toString(16).padStart(2, 0))
     .join("");

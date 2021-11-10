@@ -1,4 +1,4 @@
-var RChainWeb = (function (exports) {
+var RChainWeb = (function () {
     'use strict';
 
     /*! *****************************************************************************
@@ -51857,9 +51857,6 @@ var RChainWeb = (function (exports) {
         },
     };
 
-    exports.default = index;
-    exports.encodeBase16 = encodeBase16;
+    return index;
 
-    return exports;
-
-}({}));
+}());
